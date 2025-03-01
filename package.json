@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "next": "^15.2.0",
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "typescript": "^5.8.2"
+  },
+  "peerDependencies": {
+    "next": ">=13.0.0",
+    "react": ">=16.8.0"
+  },
+  "name": "use-react-render",
+  "version": "1.0.0",
+  "main": "out/index.js",
+  "types": "out/index.d.ts",
+  "files": ["out"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Marques",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheuspbmarques/use-react-render.git"
+  },
+  "keywords": [
+    "use",
+    "render",
+    "react",
+    "next"
+  ],
+  "bugs": {
+    "url": "https://github.com/matheuspbmarques/use-react-render/issues"
+  },
+  "homepage": "https://github.com/matheuspbmarques/use-react-render#readme",
+  "description": "This hook running check function, while check function is running, just render loading component defined by you using provider, and push to route if false or true or render the component"
+}
