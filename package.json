@@ -12,10 +12,12 @@
     "react": ">=16.8.0"
   },
   "name": "use-react-render",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "out/index.js",
   "types": "out/index.d.ts",
-  "files": ["out"],
+  "files": [
+    "out"
+  ],
   "scripts": {
     "publish": "npm publish --public"
   },
