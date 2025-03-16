@@ -19,7 +19,7 @@
     "out"
   ],
   "scripts": {
-    "publish": "npm publish --public"
+    "publish": "npm publish --access public"
   },
   "author": "Matheus Marques",
   "license": "ISC",
