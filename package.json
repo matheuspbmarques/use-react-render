@@ -17,7 +17,7 @@
   "types": "out/index.d.ts",
   "files": ["out"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "npm publish --public"
   },
   "author": "Matheus Marques",
   "license": "ISC",
